@@ -180,6 +180,7 @@ return [
         Hyn\Tenancy\Providers\TenancyProvider::class,
         // Hyn multi tenancy webserver integration.
         Hyn\Tenancy\Providers\WebserverProvider::class,
+        App\Providers\PruebaTenantProvider::class, //Provider creado para el tenant
     ],
 
     /*

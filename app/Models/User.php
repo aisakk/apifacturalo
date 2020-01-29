@@ -2,13 +2,13 @@
 
 namespace App\Models;
 
-use Hyn\Tenancy\Traits\UsesTenantConnection; //Importando clase de Tenancy (UsesTenantConnection)
+//use Hyn\Tenancy\Traits\UsesTenantConnection; //Importando clase de Tenancy (UsesTenantConnection)
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
 class User extends Authenticatable
 {
-    use Notifiable, UsesTenantConnection; //Utilizando la Clase modelo
+    use Notifiable; //Utilizando la Clase modelo
 
     /**
      * The attributes that are mass assignable.
